@@ -7,11 +7,11 @@ function drawCar(carArray){
     for(let item of carArray){
         div.innerHTML += `
         <p>&#128663;</p>
-        <p>model: ${carArray.model}</p>
-        <p>color: ${carArray.color}</p>
-        <p>year: ${carArray.year}</p>
-        <p>price: ${carArray.price}</p>
-        <p>country: ${carArray.country}</p>        
+        <p>model: ${item.model}</p>
+        <p>color: ${item.color}</p>
+        <p>year: ${item.year}</p>
+        <p>price: ${item.price}</p>
+        <p>country: ${item.country}</p>        
         `
     }
 };

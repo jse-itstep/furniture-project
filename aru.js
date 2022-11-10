@@ -1,7 +1,7 @@
 console.log("aru")
 
 
-let furnitureArray = JSON.parse(localStorage("furniture"))
+let furnitureArray = JSON.parse(localStorage.getItem("furniture"))
 let div = document.querySelector(".block")
 
 function drawFurniture(){

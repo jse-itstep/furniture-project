@@ -12,4 +12,4 @@ let music = [
 ]
 
 
-localStorage.setItem(JSON.stringify("mal", animal));
+localStorage.setItem("music", JSON.stringify(music));
