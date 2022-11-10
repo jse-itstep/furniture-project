@@ -1,0 +1,11 @@
+#div{
+    height: 100px;
+    width: 500px;
+    box-shadow: 0 0 3px gray;
+    display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-direction: column;
+    border-radius: 8px;
+    padding-left: 10px;
+}
